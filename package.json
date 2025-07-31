@@ -1,0 +1,30 @@
+{
+  "name": "campusify",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "bcryptjs": "^3.0.2",
+    "mongoose": "^8.13.2",
+    "next": "15.2.4",
+    "next-auth": "^4.24.11",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "eslint": "^9",
+    "eslint-config-next": "15.2.4"
+  },
+  "description": "Campusify is a web application with two roles — **Admin** and **Student** — designed for college campuses. It allows users to view upcoming events, post or find lost items, check the mess menu, and share or access study notes.",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
